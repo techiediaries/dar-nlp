@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Zero-dependency TF-IDF contract retrieval engine. Finds reusable code from @contract blocks.",
   "main": "index.js",
+  "bin": {
+    "dar-nlp": "./bin/dar-nlp"
+  },
   "scripts": {
     "test": "node -e \"const {createSearcher}=require('./index'); console.log('ok');\""
   },
