@@ -7,7 +7,7 @@
     "dar-nlp": "./bin/dar-nlp"
   },
   "scripts": {
-    "test": "node -e \"const {createSearcher}=require('./index'); console.log('ok');\""
+    "test": "node test/test.js"
   },
   "keywords": ["nlp", "tfidf", "contracts", "retrieval", "code-search"],
   "license": "MIT"
