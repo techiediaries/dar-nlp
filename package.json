@@ -9,6 +9,10 @@
   "scripts": {
     "test": "node test/test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/techiediaries/dar-nlp"
+  },
   "keywords": ["nlp", "tfidf", "contracts", "retrieval", "code-search"],
   "license": "MIT"
 }
